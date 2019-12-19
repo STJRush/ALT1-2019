@@ -1,0 +1,59 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url("http://www.wellbeingmag.com/wp-content/uploads/2016/03/wb.skyandgrasspic.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px;
+  
+}
+
+h1 {
+  font-style: italic;
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+}
+h1 span { 
+    background-color: white; 
+    padding: 10px;
+}
+li {
+  float: left;
+  display: inline;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #ffff;
+  font-family: Jazz LET, arial;
+}
+p {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0px;
+  position: relative;
+  bottom: 20px;
+  
+}
+div{
+  width: 400px;
+  height: 10px;
+  padding: 50px;
+  border: 8px solid lightblue;
+  background: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+content-box { 
+  box-sizing: content-box;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
