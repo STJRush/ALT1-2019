@@ -1,0 +1,42 @@
+console.log("hi");
+
+var firebaseConfig = {
+  apiKey: "AIzaSyAnY7LDnqfuRpWVrpg3-z0IEXxhSqBmAYs",
+  authDomain: "compscijs-5628b.firebaseapp.com",
+  databaseURL: "https://compscijs-5628b.firebaseio.com",
+  projectId: "compscijs-5628b",
+  storageBucket: "compscijs-5628b.appspot.com",
+  messagingSenderId: "495692324187",
+  appId: "1:495692324187:web:d69081a61f8e925cbe4e7e",
+  measurementId: "G-KL370LD9YG"
+};
+
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+
+function FormSubmission() {
+  var today = new Date();
+  var timestamp =
+    today.getHours() +
+    ":" +
+    today.getMinutes() +
+    ":" +
+    today.getSeconds() +
+    " " +
+    today.getDate() +
+    "/" +
+    (today.getMonth() + 1) +
+    "/" +
+    today.getFullYear();
+
+  var myDBConn = firebase.database().ref();
+
+  var TempBranch = myDBConn.child("MyTemperatures");
+
+  var currentTemp = document.getElementById("UserData");
+
+  TempBranch.push({
+    Temperature: parseInt(currentTemp.value),
+    Time: timestamp
+  });
+}
