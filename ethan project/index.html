@@ -1,4 +1,92 @@
-index.html-https://glitch.com/edit/#!/swift-allosaurus?path=index.html:45:0
-script.html-https://glitch.com/edit/#!/swift-allosaurus?path=script.js:1:0
-style.css-https://glitch.com/edit/#!/swift-allosaurus?path=style.css:12:0
-report-https://glitch.com/edit/#!/report2019?path=index.html:1:0
+index.html-<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Write To Firebase</title>
+  </head>
+
+  <body>
+    <h2>Background Image</h2>
+
+<div style="background-image: url('https://i.ytimg.com/vi/nGBzKlNPurQ/hqdefault.jpg');">
+    <img src=" image" alt="HTML tutorial" style="width:400px;height:600px;border:0;">
+  
+   <h1>Rate the Jeff</h1>
+
+    on a scale of 1-Jeff:<input type="text" id="UserData" />
+
+   <input        type="button"         id="Submit"       value="Submit"       onclick="FormSubmission()"    />
+  
+    
+     <br>
+  
+  <br>
+  
+      <br>
+  .
+  <br>
+  .    <br>
+  .    <br>
+  .
+  <br>
+  .
+  <br>
+  .
+  </body>    <br>
+  .
+  <br>
+  .  
+  <br>
+  . 
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase.js"></script>
+<script src="script.js"></script>
+
+  
+  var firebaseConfig = {
+    apiKey: "AIzaSyBbidgvDl3-YKmv5ms_ULspwnQgHIWlDU0",
+    authDomain: "webpage-compsci.firebaseapp.com",
+    databaseURL: "https://webpage-compsci.firebaseio.com",
+    projectId: "webpage-compsci",
+    storageBucket: "webpage-compsci.appspot.com",
+    messagingSenderId: "293543925895",
+    appId: "1:293543925895:web:12dea9b41a9f094c9a4022",
+    measurementId: "G-55ZWP6QSBT"
+  };
+
+// Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+
+// Function that grabs data from the form and sends it to Firebase along with the current date and time
+
+function FormSubmission(){
+    var today = new Date();
+    var timestamp = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds() + " " + today.getDate() + "/" + (today.getMonth()+1) + "/" + today.getFullYear();
+  
+    var myDBConn = firebase.database().ref();
+  
+    var TempBranch = myDBConn.child("rating");
+  
+    var currentTemp = document.getElementById("UserData");
+  
+    TempBranch.push({Temperature: parseInt(currentTemp.value), Time:timestamp});
+  
+  
+}
+  
+  /* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+  
+Report-https://glitch.com/edit/#!/report2019?path=index.html:1:0
