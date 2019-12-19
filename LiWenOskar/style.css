@@ -1,0 +1,138 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #e6fcff;
+}
+
+h1 {
+  color: 000000;
+}
+
+h2 { 
+  color: rgb(10,10,10);
+  font-style: italic;
+}
+
+.ScoreDisplay{
+  font-style: italic;
+  font-size: 20px;
+}
+
+
+.names{
+  font-style: italic;
+}
+
+.red{
+  color: rgb(255,30,30);
+}
+
+.orange{
+  color: rgb(255,110,0)
+}
+
+.yellow{
+  color: rgb(220,190,0);
+}
+
+.green{
+  color: rgb(0,100,0);
+}
+
+.blue{
+  color: rgb(0,90,255)
+}
+
+.purple{
+  color: rgb(140,0,250)
+}
+
+  
+.TopRight {
+    position: absolute;
+    top: 10px;
+    right: 220px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Papyrus, fantasy; 
+        }
+     
+.TopRightScore1 {
+    position: absolute;
+    top: 30px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
+   
+.TopRightScore2 {
+    position: absolute;
+    top: 60px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
+     
+.TopRightScore3 {
+    position: absolute;
+    top: 90px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
+     
+.TopRightScore4 {
+    position: absolute;
+    top: 120px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
+     
+.TopRightScore5 {
+    position: absolute;
+    top: 150px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
+     
+.TopRightScore6 {
+    position: absolute;
+    top: 180px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
+   
+.TopRightScore7 {
+    position: absolute;
+    top: 210px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
+   
+.TopRightScore8 {
+    position: absolute;
+    top: 240px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
+   
+.TopRightScore9 {
+    position: absolute;
+    top: 270px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
+   
+.TopRightScore10 {
+    position: absolute;
+    top: 300px;
+    right: 196px;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Light"
+        }
