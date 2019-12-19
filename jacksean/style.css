@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Courier New, Courier, monospace;
+  margin: 5em;
+  background: rgb(0,0,0);
+  background-image: url("https://i.redd.it/a20v8xz9fo031.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px;
+  
+  
+}
+
+h1 {
+  font-family: Times New Roman, Times, serif;
+  color: silver;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-decoration: underline;
+  font-style: italic;
+
+}
+
+
+input {
+  text-align: center;
+  color: blue;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  
+  
+}
+
+input.s {
+  color:purple;
+  background-color: silver ;
+  border-radius: ;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 50px;
+  font-family:Jazz LET, fantasy;
+}
+input.s:hover {
+  background-color: #f7f5f2; 
+  color: red;
+}
+p {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+li {
+  float: left;
+  display: inline;
+  display: center;
+}
+
+a {
+ display: block;
+ font-style: italic;
+  font-family: Courier New, Courier, monospace;
+  padding: 8px;
+  background-color: white;
+  width: 62px;
+  display: center;
+  position: fixed;
+  bottom: 10pt;
+  left: 5pt;
+   
+  
+  
+}
