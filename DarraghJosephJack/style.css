@@ -1,0 +1,37 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  
+
+  background-repeat: no-repeat;
+  background-size: 2000px 1500px;
+  background-image: url("https://cdn.glitch.com/27a66fbe-6aa9-4c6f-b3ff-6f4103859da5%2Fwater-1330252_1920.jpg?v=1576601252074");
+
+}
+li {
+  float: right;
+  display: inline;
+  display: center;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #ffff;
+}
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+img {
+  height: 1100000px;
+  width: 150333px;
+}
+
+gif {
+  height: 1100000px;
+  width: 150333px;
+}
