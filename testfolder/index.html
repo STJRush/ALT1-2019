@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Write To Firebase</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <h1>Read/Write in one page example</h1>
+
+    <h3>
+      Writing to Firebase:
+    </h3>
+
+    Temperature: <input type="text" id="UserData" />
+
+    <!-- The button links to the javascript function FormSubmission() which is in the form.js file -->
+    <input
+      type="button"
+      id="Submit"
+      value="Submit"
+      onclick="FormSubmissionCyberT()"
+    />
+
+    <br />
+    <h3>
+      Reading from same Firebase:
+    </h3>
+
+    Temperature : <a id="TempID">----</a><br />
+    Time : <a id="TimeID">----</a>
+    <br />
+<h2>Hoverable Dropdown</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a onclick="FormSubmissionCyberT()"> Tesla CyberTruck</a>
+    <a onclick="FormSubmissionModel3()"> Tesla Model 3</a>
+    <a onclick="FormSubmissionDefender()"> Landrover Defender</a>
+  </div>
+</div>
+    <br />
+    <br />
+    <img
+      src="https://cdn.glitch.com/e1f3285a-ac99-4175-bf0c-d3e4ae9fc789%2Ftenor%20(1).gif?v=1574878458745"
+    />
+    <br />
+    Red Panda is not needed for<br />
+    firebase. But he is needed. <br />
+    You are needed too :) <br />
+  </body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+<script src="script.js"></script>
