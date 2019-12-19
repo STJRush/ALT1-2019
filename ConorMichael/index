@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Write To Firebase</title>
+  </head>
+
+  <body>
+    <h1>Rate My Food</h1>
+
+    Rating: <input type="text" id="UserData" />
+    Only 1-10
+
+    <!-- The button links to the javascript function FormSubmission() which is in the form.js file -->
+    <input
+      type="button"
+      id="Submit"
+      value="Submit"
+      onclick="FormSubmission()"
+    />
+ 
+   
+    <img src="https://cdn.glitch.com/58c81bf0-6620-47a5-99fe-37edcc623dd9%2Fb6acedcd-3989-45ee-b8af-6083ad55a157.image.png?v=1574948311879"/> 
+ 
+  </body>
+ 
+ 
+ 
+ 
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+<script src="script.js"></script>
